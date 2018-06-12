@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Beetrack News</string>
+
+    <!-- Fonts -->
+    <string-array name="fonts">
+        <item>Roboto/Roboto-Regular.ttf</item>
+        <item>Roboto/Roboto-Medium.ttf</item>
+        <item>Roboto/Roboto-Black.ttf</item>
+    </string-array>
+
+    <string name="empty_label">Not content yet</string>
+    <string name="articles_label">Articles</string>
+    <string name="articles_favorite_label">Favorites</string>
+
+</resources>

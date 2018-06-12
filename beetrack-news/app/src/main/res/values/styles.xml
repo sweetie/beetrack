@@ -1,0 +1,91 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- TextView General -->
+    <style name="TextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="typeface">roboto_regular</item>
+    </style>
+
+    <!-- TextView Heading -->
+    <style name="TextViewStyle.Heading">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="typeface">roboto_medium</item>
+    </style>
+
+    <!-- TextView Subheading -->
+    <style name="TextViewStyle.Subheading">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/grey_dark</item>
+        <item name="typeface">roboto_regular</item>
+    </style>
+
+    <!-- TextView Body -->
+    <style name="TextViewStyle.Body">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/grey_500</item>
+        <item name="typeface">roboto_medium</item>
+    </style>
+
+    <!-- TextView Body Bold -->
+    <style name="TextViewStyle.Body.Bold">
+        <item name="android:textSize">13sp</item>
+        <item name="typeface">roboto_medium</item>
+    </style>
+
+    <!-- TextView Caption -->
+    <style name="TextViewStyle.Caption">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/grey_dark</item>
+    </style>
+
+
+    <!-- TabLayout -->
+    <style name="TabLayoutStyle" parent="Widget.Design.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/TabTextAppearance</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+    </style>
+
+    <!-- TabLayout Icon -->
+    <style name="TabLayoutIconStyle" parent="Widget.Design.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/TabTextAppearanceIcon</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+    </style>
+
+    <!-- Tab TextAppearance -->
+    <style name="TabTextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Tab TextAppearance Icon -->
+    <style name="TabTextAppearanceIcon">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/tab_title</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>
